@@ -114,16 +114,16 @@ then
 factorio_command="$factorio_command --complete"
 fi
 # Setting allow-commands option
-factorio_command="$factorio_command --allow-commands $FACTORIO_ALLOW_COMMANDS"
+# factorio_command="$factorio_command --allow-commands $FACTORIO_ALLOW_COMMANDS"
 # Setting auto-pause option
-if [ "$FACTORIO_NO_AUTO_PAUSE" == true ] 
+if [ "$FACTORIO_NO_AUTO_PAUSE" == true ]
 then
 factorio_command="$factorio_command --no-auto-pause"
 fi
 # Setting autosave-interval option
-factorio_command="$factorio_command --autosave-interval $FACTORIO_AUTOSAVE_INTERVAL"
+#factorio_command="$factorio_command --autosave-interval $FACTORIO_AUTOSAVE_INTERVAL"
 # Setting autosave-slots option
-factorio_command="$factorio_command --autosave-slots $FACTORIO_AUTOSAVE_SLOTS"
+#factorio_command="$factorio_command --autosave-slots $FACTORIO_AUTOSAVE_SLOTS"
 # Setting rcon-port option
 factorio_command="$factorio_command --rcon-port 27015"
 # Setting rcon password option
